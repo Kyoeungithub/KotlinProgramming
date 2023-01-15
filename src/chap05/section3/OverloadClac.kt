@@ -9,6 +9,7 @@ fun main() {
 }
 
 class Calc{
+    //다양한 매개변수로 오버로딩된 메서드
     fun add(x: Int, y:Int): Int=x+y
     fun add(x: Double, y: Double): Double=x+y
     fun add(x: Int, y: Int, z:Int): Int=x+y+z
